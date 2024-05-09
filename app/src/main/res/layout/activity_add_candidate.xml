@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <!-- User's Image -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:civ_border_color="@color/primary"
+        android:elevation="3dp"
+        app:civ_border_width="3dp"
+        android:src="@drawable/user" />
+
+
+    <EditText
+        android:id="@+id/editTextCandidateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp"
+        android:hint="Candidate Name" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!-- Election Section -->
+
+        <TextView
+            android:id="@+id/editTextPartyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:hint="Select Party " />
+
+        <Spinner
+            android:id="@+id/spinnerPartyType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:backgroundTint="@color/primary"
+            android:hint="Select Party" />
+
+    </LinearLayout>
+
+    <!-- You can add more fields for candidate details here, such as photo URL -->
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:layout_marginTop="15dp"
+
+       android:orientation="horizontal">
+       <!-- Election Section -->
+
+       <TextView
+           android:id="@+id/editTextElectionName"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:textStyle="bold"
+           android:textSize="20sp"
+           android:hint="Select Election " />
+
+       <Spinner
+           android:id="@+id/spinnerElectionType"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:padding="10dp"
+           android:backgroundTint="@color/primary"
+           android:hint="Select Election Type" />
+
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAddCandidateAndElection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="Add Candidate" />
+
+</LinearLayout>

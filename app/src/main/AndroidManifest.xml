@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="E-voting System"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnlineVotingSystem"
+        tools:targetApi="31">
+        <activity
+            android:name=".PublishResult"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowResults"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".VoterRegistrationAdmin"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".VoterRegistration"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".VotingFAQ"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".VotingOptions"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ViewCandidate"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".ShowElectionList"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".AddElections"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".AddCandidate"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".AddParty"
+            android:exported="false"
+            android:parentActivityName=".AdminDashboard" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Auth"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

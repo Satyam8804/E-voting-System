@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_add_party"
+            android:title="Add Party" />
+    </group>
+    <group android:checkableBehavior="none">
+
+    <item
+            android:id="@+id/nav_organize_election"
+        android:title="Add Election" /> </group>
+    <group android:checkableBehavior="none">
+    <item
+        android:id="@+id/nav_add_candidates"
+        android:title="Add Candidates" /> </group>
+        <!-- Add more menu items as needed -->
+
+    <group android:checkableBehavior="none">
+
+    <item android:id="@+id/show_election_list"
+        android:title="Show Elections"/> </group>
+
+    <group android:checkableBehavior="none">
+
+    <item android:id="@+id/show_candidate_list"
+            android:title="Show Candidates"/>
+    </group>
+    <group android:checkableBehavior="none">
+
+    <item android:id="@+id/verify_voters"
+            android:title="Verify Voters"/>
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/logout"
+            android:title="Logout"/>
+    </group>
+
+
+</menu>

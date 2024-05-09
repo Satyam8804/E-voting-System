@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:id="@+id/auth"
+    tools:context=".Auth">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/online_voting_sys"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/logo"
+        android:textColor="#b3bac8"
+        android:textSize="32sp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:padding="10dp"
+        app:cardCornerRadius="15dp"
+        android:layout_below="@+id/title"        >
+
+        <LinearLayout
+            android:id="@+id/buttons_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#b3bac8"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:backgroundTint="#6fc1cc"
+                android:text="@string/login" />
+
+            <Button
+                android:id="@+id/btnSignup"
+                android:layout_width="100dp"
+                android:backgroundTint="#6fc1cc"
+                android:layout_height="wrap_content"
+                android:text="@string/signup" />
+
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cardView"
+            android:layout_marginTop="70dp" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

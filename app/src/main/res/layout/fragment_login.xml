@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <!-- Email Field -->
+        <EditText
+            android:id="@+id/emailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="VoterId"
+            android:hint="@string/voter_id"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColorHint="#b3bac8"
+            android:textColor="#b3bac8"
+            android:textStyle="bold"
+            android:background="@drawable/custom_edittext"
+            android:padding="15dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:background="@drawable/custom_edittext"
+            android:padding="15dp"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textColorHint="#b3bac8"
+            android:textColor="#b3bac8"
+            android:layout_marginBottom="8dp"/>
+
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/primary"
+            android:textSize="24sp"
+            android:textColor="#f8f9fa"
+            android:textStyle="bold"
+            android:text="@string/login"/>
+
+        <TextView
+            android:id="@+id/signupText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#2b2d30"
+            android:layout_marginTop="20dp"
+            android:text="@string/new_here_register" />
+
+    </LinearLayout>
+</FrameLayout>

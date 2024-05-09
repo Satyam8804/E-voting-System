@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OnlineVotingSystem</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_here_register">New here ? Register</string>
+    <string name="signup">Signup</string>
+    <string name="voter_id">Email ID</string>
+    <string name="online_voting_sys">Online Voting System</string>
+    <string name="already_registered_login">Already registered ? Login</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="navigation_drawer_open">Navigation drawer opened</string>
+    <string name="navigation_drawer_close">Navigation drawer closed</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="show_results">Show Results</string>
+    <string name="view_candidates">View Candidates</string>
+    <string name="know_the_issues">Know the issues</string>
+    <string name="voting_faq_s">Voting FAQ\'s</string>
+</resources>

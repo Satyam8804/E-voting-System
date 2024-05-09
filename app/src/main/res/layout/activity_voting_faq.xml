@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/faqTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voting FAQ's"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- FAQ 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Who can vote?"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Eligibility to vote typically depends on factors such as citizenship, age, and registration. In most democratic countries, citizens above a certain age (often 18 years old) are eligible to vote in elections."/>
+
+        <!-- FAQ 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. How do I register to vote?"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Voter registration processes vary by country and sometimes by region. Typically, citizens need to fill out a voter registration form and submit it to the relevant electoral authorities. Online registration options are becoming increasingly common."/>
+
+        <!-- FAQ 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Can I vote if I'm away from my registered address on election day?"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Some countries offer absentee voting or postal voting options for citizens who are unable to vote in person on election day. Check with your electoral authorities for information on absentee voting procedures."/>
+
+        <!-- FAQ 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. What should I bring with me to the polling station?"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Requirements may vary, but it's typically a good idea to bring a form of identification, such as a driver's license or passport, to verify your identity. Some countries may also require you to bring your voter registration card."/>
+
+        <!-- FAQ 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. What happens if I spoil my ballot?"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- If you accidentally spoil your ballot, inform a polling station staff member, and they will provide you with a new one. Spoiled ballots are typically not counted in the final tally."/>
+
+        <!-- Add more FAQs here -->
+        <!-- FAQ 6 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Can I vote if I'm registered in a different constituency?"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Some countries allow registered voters to cast their ballot in a different constituency, while others require voters to vote at their designated polling station. Check with your electoral authorities for specific rules regarding voting in a different constituency."/>
+
+        <!-- FAQ 7 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Can I vote online?"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Online voting options are becoming increasingly popular, but they are not yet universally available. Check with your electoral authorities to see if online voting is an option in your jurisdiction."/>
+
+        <!-- FAQ 8 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Can I vote if I'm a convicted felon?"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Voting rights for convicted felons vary by country and sometimes by state or region. In some places, individuals with felony convictions may have their voting rights restored after completing their sentence, while in others, voting rights may be permanently revoked. Check with your electoral authorities for information on voting rights restoration processes."/>
+
+        <!-- FAQ 9 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Can I vote if I'm abroad?"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Many countries offer options for citizens residing abroad to vote in their home country's elections, either through embassy or consulate voting, postal voting, or online voting. Check with your electoral authorities for information on voting procedures for citizens living abroad."/>
+
+        <!-- FAQ 10 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Can I vote if I'm homeless?"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Homeless individuals may still be eligible to vote, as long as they meet the citizenship and age requirements. Some countries have provisions in place to facilitate voting for homeless individuals, such as allowing them to use shelters or community centers as their voting address. Check with your electoral authorities for specific information on voting rights and procedures for homeless individuals."/>
+
+        <!-- Add more FAQs here -->
+
+
+    </LinearLayout>
+</ScrollView>
